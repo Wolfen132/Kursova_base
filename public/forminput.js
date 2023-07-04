@@ -112,7 +112,7 @@ function modifyModalToEdit(_id, productName, productSocket, productChipset, prod
   editCloudinaryPublicId = cloudinaryPublicId;
   document.getElementById("modalcont").style.display = "block";
   document.getElementById("greybg").style.display = "block";
-  document.getElementsByClassName("text-h")[0].innerText = "Edit NAS";
+  document.getElementsByClassName("text-h")[0].innerText = "Edit Board";
   document.getElementById("submitBtn").innerText = "Update";
   document.getElementById('productImage').setAttribute("src", productImage);
   document.getElementById("js-input-model").value = productName;
