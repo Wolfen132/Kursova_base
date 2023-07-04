@@ -11,7 +11,7 @@ function Modaleclose() {
 function Modaleshow() {
 	document.getElementById('modalcont').style.display='block';
     document.getElementById('greybg').style.display='block';
-    document.getElementsByClassName("text-h")[0].innerText = "Create NAS"
+    document.getElementsByClassName("text-h")[0].innerText = "Create Board"
     document.getElementById("submitBtn").innerText = "Submit"
 }
 function Modalecloseedit() {
